@@ -1,6 +1,6 @@
 # **Anna Kryshniova**
 ### junior Frontend developer
-![Anna](\assets\img\profile-photo.jpg)
+![Anna](/assets/img/profile-photo.jpg)
 ## Contacts
 **Phone** +375291225730
 
