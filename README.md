@@ -1,1 +1,1 @@
-# rsschool-cv
+https://a-fluff.github.io/rsschool-cv/
