@@ -1,0 +1,86 @@
+body {
+  background-color: #dddddd;
+}
+p, ul, table {
+  font-size: 18px;
+}
+section:not(:last-child) {
+  margin-bottom: 50px;
+}
+h2 {
+  color: #68791d;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+}
+.font--italic {
+  font-style: italic;
+}
+.font--bold {
+  font-weight: bold;
+}
+.cv__wrapper {
+  margin: 60px 300px;
+  padding: 100px 80px 40px;
+  background-color: #ffffff;
+}
+section.intro {
+  margin-bottom: 450px;
+}
+.name {
+  font-size: 2.3rem;
+}
+.specialization {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+.profile-photo {
+  object-fit: cover;
+  width: 450px;
+  height: 400px;
+  position: absolute;
+  top: 100px;
+  right: 345px;
+  z-index: 1;
+}
+.contacts {
+  position: relative;
+  top: -130px;
+  left: -40px;
+  width: 40%;
+}
+.contacts__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.contacts__item img {
+  width: 20px;
+  height: 20px;
+}
+section.about-me {
+  margin-top: -80px;
+}
+.about-me p {
+  text-align:justify
+}
+.projets__list {
+  font-size: 18px;
+}
+.projets__list a {
+  text-decoration: none;
+  color: inherit;
+}
+.projets__list dd:not(:last-child) {
+  margin-bottom: 10px;
+}
+.projets__list a:hover {
+  color: #68791d;
+}
+.lang-table {
+  border-spacing: 15px 5px;
+  margin-left: -15px;
+}
+.level-column {
+  text-align: center;
+}
