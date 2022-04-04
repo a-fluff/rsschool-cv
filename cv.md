@@ -1,20 +1,22 @@
 # **Anna Kryshniova**
-### junior Frontend developer
+**Junior Frontend Developer**
+
 ![Anna](/assets/img/profile-photo.jpg)
 ## Contacts
-**Phone** +375291225730
+**Phone**: +375291225730
 
-**Telegram** [@Mrr_Ann](https://t.me/@Mrr_Ann)
+**Telegram**: [@Mrr_Ann](https://t.me/@Mrr_Ann)
 
-**Email** akryshneva8@gmail.com
+**Email**: akryshneva8@gmail.com
 
-**LinkedIn** [Anna Kryshniova](https://www.linkedin.com/in//anna-kryshniova-6880b41a7)
+**LinkedIn**: [Anna Kryshniova](https://www.linkedin.com/in//anna-kryshniova-6880b41a7)
 
-**Nickname in rs school discord server** Anna Kryshniova(@a-fluff)
+**Nickname in rs school discord server**: Anna Kryshniova(@a-fluff)
 
 Link to my [GitHub](https://github.com/a-fluff) profile
 ## About me
 I fell in love with front-end more than a year ago and since then I've been striving to gain as much knowledge and experience as possible and become a successful and sought-after specialist in that field.
+
 I started learning development on my own, practiced at the HTML Academy, and then took front-end development courses from Adukar. In my free time, I read specialized books, for example, "You don't know JS", solve katas, watch educational videos on YouTube and write a web application for learning English using flashcards.
 ## Skills
 * HTML5
