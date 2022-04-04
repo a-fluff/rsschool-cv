@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anna Kryshniova CV</title>
+</head>
+<body>
+  <div class="cv__wrapper">
+    <section class="intro">
+      <h1 class="name">Anna Kryshniova</h1>
+      <p class="specialization">Junior Frontend Developer</p>
+      <img class="profile-photo" src="./assets/img/profile-photo.jpg" alt="Anna Kryshniova">
+    </section>
+
+    <section class="contacts">
+      <h2 hidden id="contacts">Contacts</h2>
+      <ul class="contacts__list">
+        <li class="contacts__item">
+        </li>
+        <li class="contacts__item">
+        </li>
+        <li class="contacts__item">
+        </li>
+        <li class="contacts__item">
+        </li>
+        <li class="contacts__item">
+        </li>
+        <li class="contacts__item">
+        </li>
+      </ul>
+    </section>
+
+    <section class="about-me">
+      <h2 id="about-me">About me</h2>
+      <p>I fell in love with front-end more than a year ago and since then I've been striving to gain as much knowledge and experience as possible and become a successful and sought-after specialist in that field.</p>
+      <p>I started learning development on my own, practiced at the HTML Academy, and then took front-end development courses from Adukar. In my free time, I read specialized books, for example, "You don't know JS", solve katas, watch educational videos on YouTube and write a web application for learning English using flashcards.</p>
+    </section>
+        
+    <section class="skills">
+      <h2 id="skills">Skills</h2>
+      <ul class="skills__list">
+        <li class="skills__item">HTML5</li>
+        <li class="skills__item">БЭМ</li>
+        <li class="skills__item">Pug, SASS, LESS</li>
+        <li class="skills__item">CSS3</li>
+        <li class="skills__item">JS ES6</li>
+        <li class="skills__item">React</li>
+        <li class="skills__item">Redux</li>
+        <li class="skills__item">GIT</li>
+      </ul>
+    </section>
+    
+    <section class="code-examplese">
+      <h2 id="code-examples">Code examples</h2>
+      <p>
+        5 kyu Kata solution <span class="font--italic">"Human Readable Time"</span>
+      </p>
+      <pre>
+        function humanReadable (seconds) {
+          let hours = Math.floor(seconds/3600);
+          hours = hours < 10 ? `0${hours}` : hours;
+          let minutes = Math.floor(seconds%3600/60);
+          minutes = minutes < 10 ? `0${minutes}` : minutes;
+          let leftSeconds = Math.floor(seconds%3600%60);
+          leftSeconds = leftSeconds < 10 ? `0${leftSeconds}` : leftSeconds;
+          return `${hours}:${minutes}:${leftSeconds}`
+        }
+      </pre>
+    </section>
+
+    <section class="work-experience">
+      <h2>Work experience</h2>
+      <dl class="projets__list">
+        <dt class="project__item"><span class="font--bold">HTML+CSS+БЭМ:</span> <a href="https://a-fluff.github.io/smartfix/">https://a-fluff.github.io/smartfix/</a></dt>
+        <dd><span class="font--italic">a smartphone repair website from scratch</span></dd>
+
+        <dt class="project__item"><span class="font--bold">JS:</span> <a href="https://a-fluff.github.io/App-2.0/">https://a-fluff.github.io/App-2.0/</a></dt>
+        <dd><span class="font--italic">app for managing income and expenses</span></dd>
+
+        <dt class="project__item"><span class="font--bold">React+Redux:</span> <a href="https://github.com/a-fluff/weather_react">https://github.com/a-fluff/weather_react</a></dt>
+        <dd><span class="font--italic">app with current weather in the selected location in English/Russian versions</span></dd>
+
+        <dt class="project__item"><span class="font--bold">English app:</span> <a href="https://cryptic-earth-35216.herokuapp.com">https://cryptic-earth-35216.herokuapp.com</a></dt>
+        <dd><span class="font--italic">app for learning English using flashcards</span></dd>
+      </dl>
+    </section>
+
+    <section class="education">
+      <h2 id="education">Education</h2>
+      <p><span class="font--bold">2018-2022</span> BSU FIR (qualification manager-economist, interpreter-translator)</p>
+      <p><span class="font--bold">May-November 2021</span> - Front-End Development courses in Adukar</p>
+      <p><span class="font--bold">March 2021, August 2022</span> - layout marathons from HTML Academy</p>
+    </section>
+
+    <section class="languages">
+      <h2>Languages</h2>
+      <table class="lang-table">
+        <thead>
+          <tr>
+            <th>Language</th>
+            <th>Level</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>English</td>
+            <td class="level-column">B2</td>
+          </tr>
+          <tr>
+            <td>Deutch</td>
+            <td class="level-column">B1</td>
+          </tr>
+          <tr>
+            <td>Español</td>
+            <td class="level-column">A0</td>
+          </tr>
+        </tbody>
+        </table>
+    </section>
+  </div>
+</body>
+</html>
